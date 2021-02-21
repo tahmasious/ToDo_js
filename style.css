@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "pop";
+    src: url("fonts/PoppinsLatin-Regular.ttf") format("truetype");
+}
+
+* {
+    font-family: 'pop';
+}
+
+body {
+    background-color: rgb(15, 16, 18);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+ul {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+li {
+    list-style: none;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-weight: 600;
+    border: 2px solid rgb(38, 39, 245);
+    border-radius: 25px;
+    margin-bottom: 10px;
+    background: #ffffff00;
+    transition: all 0.75s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5 ease;
+}
+
+#main_div {
+    width: 95%;
+    min-height: 600px;
+    height: auto;
+    border-radius: 25px;
+    background-color: #101010;
+    border-width: 7px;
+    border-style: solid;
+    border-color: #ffffff;
+    margin: 100px auto;
+}
+
+#bar {
+    width: 75%;
+    height: 45px;
+    border-radius: 25px;
+    padding-left: 25px;
+    border-style: none;
+}
+
+#sumbit {
+    width: 100px;
+    height: 45px;
+    background-color: rgb(38, 39, 245);
+    border-style: none;
+    border-radius: 25px;
+    color: azure;
+}
+
+.select {
+    background-color: white;
+    color: rgb(38, 39, 245);
+    border-color: rgb(38, 39, 245);
+}
+
+li button {
+    float: right;
+    color: white;
+    /* background: none; */
+    border-style: none;
+    border-radius: 300px;
+    background-color: rgb(38, 39, 245);
+}
